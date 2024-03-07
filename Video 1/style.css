@@ -1,21 +1,8 @@
-.hello-man {
-    align-self: stretch;
-    position: relative;
+body {
+    background-color: black;
 }
-.hello-man-parent {
 
-    width: 100%;
-    position: relative;
-    border-radius: 12px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 27px 40px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 72.8px;
-    color: #000;
-    font-family: Inter;
+h2 {
+    color: white;
 }
+
