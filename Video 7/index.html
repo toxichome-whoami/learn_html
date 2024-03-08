@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form - Let's learn it</title>
+</head>
+<body>
+    <h1>Form to apply for sigma web devepolment cource - Teacher</h1>
+    <div>
+        <form action="post">
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </form>
+    </div>
+
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newslatter</label>
+    </div>
+    <br>
+
+    <div>
+        <div>
+            <label for="comment">Enter your comment</label>
+        </div>
+        <textarea name="comment" id="comment" placeholder="comment" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <select name="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="cherry">Cherry</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
