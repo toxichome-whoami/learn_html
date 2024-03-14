@@ -1,0 +1,41 @@
+:root {
+    --color: white;
+    --second_color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--second_color);
+}
+
+.nav {
+    background-color: #006e00;
+    color: var(--color);
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px 45px;
+    padding: 14px 32px;
+    border: 12px solid rgb(206, 162, 62);
+}
+
+ul li:first-child {
+    --color: #c46a35;
+    background-color: var(--color);
+}
+
+.container {
+    background-color: #79ff79;
+}
