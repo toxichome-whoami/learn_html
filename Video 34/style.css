@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    border: 2px solid black;
+    display: flow-root;
+}
+
+img {
+    width: 230px;
+    float: left;
+}
+
+.card {
+    border: 1px solid red;
+}
+
+.card-2 {
+    background-color: aqua;
+    clear: both;
+}
