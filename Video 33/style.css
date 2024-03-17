@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --nav-font-color: hsl(0, 0%, 50%);
+    --btn-font-color: white;
+    --btn-background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 45px;
+    gap: 20px;
+}
+
+.logo h2 {
+    --logo-h2: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: var(--logo-h2);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 17px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a {
+    color: hsl(0, 0%, 50%);
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    word-spacing: 1px;
+    transition: color 0.3s ease-out;
+
+}
+
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+    color: #000000;
+}
+
+.reach-out-us {
+    color: var(--btn-font-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 530;
+    font-style: normal;
+    letter-spacing: 0.3px;
+
+    background-color: var(--btn-background-color);
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 118.1px;
+    transition: border-radius 0.5s ease, background-color 0.3s ease-out;
+}
+
+.reach-out-us:hover {
+    background-color: hsl(0, 0%, 25%);
+    border-radius: 50px;
+}
+
+.reach-out-us:active {
+    background-color: hsl(0, 0%,45%);
+}
+
