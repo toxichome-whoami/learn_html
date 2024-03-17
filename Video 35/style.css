@@ -1,0 +1,22 @@
+/* .box:first-child{
+    background-color: red;
+} */
+
+/* .box::first-line {
+    color: coral;
+} */
+
+/* .boxes * {
+    color: red;
+    border: 1px solid black;
+}
+
+[data-color="primary"] {
+    margin: 30px 0 0 0;
+} */
+
+::selection {
+    background: black;
+    color: aqua;
+}
+
